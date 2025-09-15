@@ -1,0 +1,49 @@
+# Sample Meeting Transcript
+
+This is a sample transcript that can be used for testing ZoomToApp when no audio file is available.
+
+---
+
+**Meeting Transcript: Product Planning Session**
+*Date: 2024-01-15*
+*Duration: 5 minutes*
+
+**Sarah (Product Manager)**: Hi everyone, thanks for joining today's session. We need to discuss building a new todo list application for our internal team productivity.
+
+**Mike (Developer)**: Sure, what are the main requirements we're looking at?
+
+**Sarah**: Well, users should be able to create new tasks, view all their tasks in one place, and mark them as completed when they're done. Also, they should be able to delete tasks they no longer need.
+
+**Lisa (Designer)**: From a UX perspective, I think we need a clean, simple interface. Something that's intuitive and doesn't overwhelm users with too many options.
+
+**Mike**: That sounds straightforward. So we're talking about basic CRUD operations - Create, Read, Update, Delete. Should we store these in a database?
+
+**Sarah**: Yes, definitely. We want the tasks to persist between sessions. Users shouldn't lose their data when they close and reopen the application.
+
+**Lisa**: For the interface, I'm thinking a simple form at the top to add new tasks, and then a list below showing all tasks. Maybe we can have checkboxes to mark tasks as completed?
+
+**Mike**: That works. We could use a simple database like SQLite for storage, and build a web interface with React for the frontend and Express.js for the backend API.
+
+**Sarah**: Perfect. The key user stories would be:
+- As a user, I want to add new tasks so I can track what I need to do
+- As a user, I want to see all my tasks so I know my current workload  
+- As a user, I want to mark tasks as done so I can track progress
+- As a user, I want to delete old tasks to keep my list clean
+
+**Lisa**: And we should make it responsive so it works on both desktop and mobile devices.
+
+**Mike**: Agreed. I can set up the API endpoints for getting tasks, creating new ones, updating existing tasks, and deleting them.
+
+**Sarah**: Great! Let's aim for a minimum viable product that covers these core features. We can always add more advanced functionality later like task categories, due dates, or team collaboration.
+
+**Mike**: Sounds like a plan. I'll start with the backend API and database schema, then we can integrate with the frontend.
+
+**Lisa**: I'll work on some mockups for the user interface design.
+
+**Sarah**: Excellent. This should give our team a solid productivity tool. Thanks everyone!
+
+---
+
+*End of transcript*
+
+Note: This transcript demonstrates the key requirements for a todo list application that ZoomToApp can automatically convert into a working web application.
