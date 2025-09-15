@@ -1,0 +1,3 @@
+$ cd /workspace/fastapi_template
+$ cd /workspace && mkdir -p zoomtoapp
+

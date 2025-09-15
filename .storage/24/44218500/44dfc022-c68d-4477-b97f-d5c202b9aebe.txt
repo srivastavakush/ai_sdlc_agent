@@ -1,0 +1,9 @@
+$ cd /workspace/zoomtoapp && python demo.py
+Traceback (most recent call last):
+  File "/workspace/zoomtoapp/demo.py", line 14, in <module>
+    from zoom_to_app import ZoomToAppPipeline
+  File "/workspace/zoomtoapp/zoom_to_app.py", line 18, in <module>
+    from src.transcriber import AudioTranscriber
+  File "/workspace/zoomtoapp/src/transcriber.py", line 7, in <module>
+    import whisper
+ModuleNotFoundError: No module named 'whisper'
